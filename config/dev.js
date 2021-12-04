@@ -4,7 +4,8 @@ module.exports = {
   googleClientSecret: '8mkniDQOqacXtlRD3gA4n2az',
   mongoURI:
     'mongodb://noah:1234@noahcluster-shard-00-00.pvxa3.mongodb.net:27017,noahcluster-shard-00-01.pvxa3.mongodb.net:27017,noahcluster-shard-00-02.pvxa3.mongodb.net:27017/blog_dev?ssl=true&replicaSet=noahcluster-shard-0&authSource=admin&retryWrites=true&w=majority',
-  cookieKey: '123123123111'
+  cookieKey: '123123123111',
+  redisUrl: 'redis://127.0.0.1:6379'
 };
 
 // ***********************
